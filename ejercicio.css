@@ -1,0 +1,57 @@
+.advertencia {
+    color: red;
+
+}
+
+.jugadors {
+    color: red;
+    background-color: lightblue;
+}
+
+.Preguntas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    white-space: pre-line;
+    margin-bottom: 50px;
+}
+
+.separar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Respuestas1, .Respuestas2, .Respuestas3 {
+    display: flex;
+    width: 400px;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 50px;
+}
+
+
+.pregunta-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    background-color: rgb(21, 122, 180);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.jugadors {
+    color: red;
+    background-color: lightblue;
+}
+
+#textoaviso {
+    white-space: pre-line;
+}

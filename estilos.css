@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 25px;
+}
+
+a {
+    display: block;
+    background-color: #2e8b57;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    margin: 12px 0;
+    border-radius: 6px;
+}
+
+a:hover {
+    background-color: #246b43;
+}
