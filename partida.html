@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de la Oca</title>
+    <link rel="stylesheet" href="partida.css">
+</head>
+<body>
+    <header>
+        <h1>Juego de la Oca</h1>
+    </header>
+
+    <main>
+        <div class="contenedor">
+            <section class="zona-juego">
+                <div class="relativo">
+                    <img src="tablero.png" alt="tablero">
+                    <div class="absoluto">
+                        <img class="fichaB" src="dados-estilo-dibujos-animados_78370-2824.jpg">
+                    </div>
+                    <div class="absoluto">
+                        <img class="ficha" src="jue_0018.jpg">
+                    </div>        
+                </div>
+
+                <div class="Preguntas">
+                    <h2>Pregunta</h2>
+                </div>
+
+                <div class="separar">
+                    <div class="Respuesta1"></div>
+                    <div class="Respuesta2"></div>
+                    <div class="Respuesta3"></div>
+                </div>
+
+                <div class="controles">
+                    <button id="lanzardado">Lanzar dado</button>
+                    <button id="Dado2">Lanzar segundo dado</button>
+                </div>
+                <button id="nuevaPartida">Iniciar nueva partida</button>
+                <div id="mostrarmissatge"></div>
+            </section>
+
+            <section class="panel-partida">
+                <h2>Estado de la partida</h2>
+                <div id="panel-json"></div>
+            </section>
+        </div>
+    </main>
+
+    <script src="partida.js"></script>
+</body>
+</html>
